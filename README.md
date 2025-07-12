@@ -8,16 +8,27 @@ This project implements a clinical assistant system that uses multiple agents to
 
 backend/
 ├── main.py # FastAPI app setup and routes
+
 ├── agents/ # Contains all agent logic
+
 │ ├── preparation_agent.py # Pre-visit summary agent
+
 │ ├── dialogue_agent.py # Conversation analysis agent
+
 │ ├── note_generator_agent.py # SOAP note generation agent
+
 │ └── coder_agent.py # Billing code generation agent
+
 ├── sample_data/ # Sample data files (JSON, text)
+
 │ ├── sample_patient.json # Sample patient data (FHIR-like)
+
 │ └── sample_conversation.txt # Sample conversation between doctor and patient
+
 ├── requirements.txt # Python dependencies
+
 └── test_flow.py # Flow to test the system end-to-end
+
 
 csharp
 Copy
