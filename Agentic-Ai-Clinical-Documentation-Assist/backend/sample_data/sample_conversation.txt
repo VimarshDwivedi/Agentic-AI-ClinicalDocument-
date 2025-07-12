@@ -1,0 +1,4 @@
+Doctor: How have you been feeling since your last visit?
+Patient: Not great, my blood sugar has been high.
+Doctor: Are you taking your Metformin regularly?
+Patient: I try to, but sometimes I forget.

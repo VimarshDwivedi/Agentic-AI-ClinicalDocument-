@@ -1,0 +1,31 @@
+{
+    "resourceType": "Patient",
+    "id": "example",
+    "active": true,
+    "name": [{"text": "John Doe"}],
+    "gender": "male",
+    "birthDate": "1980-05-15",
+    "conditions": [
+      {
+        "code": {"text": "Type 2 Diabetes"},
+        "onsetDate": "2020-03-01",
+        "lastUpdated": "2023-01-15"
+      }
+    ],
+    "observations": [
+      {
+        "code": {"text": "HbA1c"},
+        "value": 7.2,
+        "date": "2023-01-10",
+        "trend": "up from 6.8 6 months ago"
+      }
+    ],
+    "medications": [
+      {
+        "medication": {"text": "Metformin 500mg"},
+        "status": "active",
+        "adherence": "partial"
+      }
+    ]
+  }
+  
